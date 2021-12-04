@@ -17,7 +17,7 @@ You can access, create, delete or update todos with this url. All you need to do
 
 For authorization please select type as "Bearer Token" and insert your bearer token to Authorization parameter.
 
-If you want to create a todo you can use a json-body like this : { "id":123, "title":"my first todo" } / method : POST
-If you want to delete a todo you can use a json-body like this : { "id":123 } / method : DELETE
-If you want to update a todo you can use a json-body like this : { "id":123, "title":"my updated todo" } / method : PATCH
-If you want to see all todos you can just request the url with GET method without any parameters or body. / method : GET
+- If you want to create a todo you can use a json-body like this : { "id":123, "title":"my first todo" } / method : POST
+- If you want to delete a todo you can use a json-body like this : { "id":123 } / method : DELETE
+- If you want to update a todo you can use a json-body like this : { "id":123, "title":"my updated todo" } / method : PATCH
+- If you want to see all todos you can just request the url with GET method without any parameters or body. / method : GET
