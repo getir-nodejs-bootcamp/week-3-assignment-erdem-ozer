@@ -5,8 +5,8 @@ This is a basic todo app.
 .env file is private so you need to create one for your keys
 
 You need to insert these to your .env file :
-- PORT=3000
-- JWT_SECRET=secret
+- PORT_NUMBER=3000
+- JWT_TOKEN_SECRET=secret
 
 To authenticate a user send an request to this url : http://localhost:3000/userApi/post with a json body and a parameter of "username".
 
